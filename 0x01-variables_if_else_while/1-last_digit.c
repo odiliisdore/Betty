@@ -6,17 +6,16 @@
  * main - Print the last digit of number
  *
  * Return: Always Success
- *
  */
 
 int main(void)
 
 {
-	int n;
+	int n, x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for x = n % 10;
+	x = n % 10;
 
 	if (x > 5)
 	{
