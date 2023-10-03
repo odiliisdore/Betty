@@ -27,10 +27,11 @@ int wrdcnt(char *s)
 
 /**
  * **strtow - splits a string into words
- * @tr: string to split
+ * @str: string to split
  *
  * Return: pointer to an array of string
  */
+
 char **strtow(char *str)
 {
 	int i, j, k, l, n = 0, wc = 0;
